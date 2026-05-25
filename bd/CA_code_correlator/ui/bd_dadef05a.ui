@@ -1,0 +1,173 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.26485",
+   "Default View_TopLeft":"5415,-773",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x -1760 -y -920 -defaultsOSRD
+preplace port port-id_rst_n -pg 1 -lvl 0 -x -1760 -y -850 -defaultsOSRD
+preplace inst CA_STREAM_0 -pg 1 -lvl 7 -x 1990 -y 210 -defaultsOSRD
+preplace inst phase_acc_sweep_0 -pg 1 -lvl 3 -x -440 -y -470 -defaultsOSRD
+preplace inst cordic_0 -pg 1 -lvl 4 -x 600 -y -570 -defaultsOSRD
+preplace inst CA_STREAM_1 -pg 1 -lvl 3 -x -440 -y -650 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 2 -x -850 -y -620 -defaultsOSRD
+preplace inst blk_mem_gen_1 -pg 1 -lvl 3 -x -440 -y 120 -defaultsOSRD
+preplace inst blk_mem_gen_2 -pg 1 -lvl 3 -x -440 -y 280 -defaultsOSRD
+preplace inst blk_mem_gen_3 -pg 1 -lvl 3 -x -440 -y 440 -defaultsOSRD
+preplace inst blk_mem_gen_4 -pg 1 -lvl 3 -x -440 -y 640 -defaultsOSRD
+preplace inst blk_mem_gen_5 -pg 1 -lvl 3 -x -440 -y 830 -defaultsOSRD
+preplace inst blk_mem_gen_6 -pg 1 -lvl 3 -x -440 -y 1010 -defaultsOSRD
+preplace inst blk_mem_gen_7 -pg 1 -lvl 3 -x -440 -y 1180 -defaultsOSRD
+preplace inst blk_mem_gen_8 -pg 1 -lvl 2 -x -850 -y 140 -defaultsOSRD
+preplace inst blk_mem_gen_9 -pg 1 -lvl 2 -x -850 -y 340 -defaultsOSRD
+preplace inst blk_mem_gen_10 -pg 1 -lvl 2 -x -850 -y 540 -defaultsOSRD
+preplace inst blk_mem_gen_11 -pg 1 -lvl 2 -x -850 -y 700 -defaultsOSRD
+preplace inst blk_mem_gen_12 -pg 1 -lvl 2 -x -850 -y 860 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 2 -x -850 -y -460 -defaultsOSRD
+preplace inst packer_0 -pg 1 -lvl 4 -x 600 -y 190 -defaultsOSRD
+preplace inst cmpy_0 -pg 1 -lvl 6 -x 1380 -y -620 -defaultsOSRD
+preplace inst sin_neg_0 -pg 1 -lvl 5 -x 970 -y -580 -defaultsOSRD
+preplace inst xfft_0 -pg 1 -lvl 7 -x 1990 -y -770 -defaultsOSRD
+preplace inst xfft_1 -pg 1 -lvl 11 -x 4950 -y -530 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 6 -x 1380 -y -360 -defaultsOSRD
+preplace inst xlconstant_2 -pg 1 -lvl 6 -x 1380 -y -260 -defaultsOSRD
+preplace inst IFFT_CONST_0 -pg 1 -lvl 10 -x 4330 -y -380 -defaultsOSRD
+preplace inst fft_mag_top_0 -pg 1 -lvl 12 -x 5740 -y -470 -defaultsOSRD
+preplace inst blk_mem_gen_13 -pg 1 -lvl 1 -x -1480 -y 260 -defaultsOSRD
+preplace inst blk_mem_gen_14 -pg 1 -lvl 1 -x -1480 -y 420 -defaultsOSRD
+preplace inst blk_mem_gen_15 -pg 1 -lvl 1 -x -1480 -y 580 -defaultsOSRD
+preplace inst blk_mem_gen_16 -pg 1 -lvl 1 -x -1480 -y 740 -defaultsOSRD
+preplace inst blk_mem_gen_17 -pg 1 -lvl 1 -x -1480 -y 900 -defaultsOSRD
+preplace inst blk_mem_gen_18 -pg 1 -lvl 1 -x -1480 -y 1060 -defaultsOSRD
+preplace inst blk_mem_gen_19 -pg 1 -lvl 1 -x -1480 -y 1220 -defaultsOSRD
+preplace inst blk_mem_gen_20 -pg 1 -lvl 1 -x -1480 -y 1380 -defaultsOSRD
+preplace inst blk_mem_gen_21 -pg 1 -lvl 1 -x -1480 -y 1540 -defaultsOSRD
+preplace inst blk_mem_gen_22 -pg 1 -lvl 1 -x -1480 -y 1700 -defaultsOSRD
+preplace inst blk_mem_gen_23 -pg 1 -lvl 1 -x -1480 -y 1860 -defaultsOSRD
+preplace inst blk_mem_gen_24 -pg 1 -lvl 1 -x -1480 -y 2020 -defaultsOSRD
+preplace inst packer_1 -pg 1 -lvl 4 -x 600 -y 560 -defaultsOSRD
+preplace inst CA_STREAM_2 -pg 1 -lvl 7 -x 1990 -y 710 -defaultsOSRD
+preplace inst xfft_2 -pg 1 -lvl 11 -x 4950 -y 40 -defaultsOSRD
+preplace inst blk_mem_gen_25 -pg 1 -lvl 2 -x -850 -y 1500 -defaultsOSRD
+preplace inst blk_mem_gen_26 -pg 1 -lvl 2 -x -850 -y 1660 -defaultsOSRD
+preplace inst blk_mem_gen_27 -pg 1 -lvl 2 -x -850 -y 1820 -defaultsOSRD
+preplace inst blk_mem_gen_28 -pg 1 -lvl 2 -x -850 -y 1980 -defaultsOSRD
+preplace inst blk_mem_gen_29 -pg 1 -lvl 2 -x -850 -y 2140 -defaultsOSRD
+preplace inst blk_mem_gen_30 -pg 1 -lvl 2 -x -850 -y 2300 -defaultsOSRD
+preplace inst blk_mem_gen_31 -pg 1 -lvl 2 -x -850 -y 2460 -defaultsOSRD
+preplace inst packer_7_to_1_0 -pg 1 -lvl 4 -x 600 -y 1130 -defaultsOSRD
+preplace inst CA_STREAM_3 -pg 1 -lvl 7 -x 1990 -y 1370 -defaultsOSRD
+preplace inst Mixers_DSP_0 -pg 1 -lvl 9 -x 3890 -y 1220 -defaultsOSRD
+preplace inst xfft_3 -pg 1 -lvl 11 -x 4950 -y 930 -defaultsOSRD
+preplace inst fft_mag_top_1 -pg 1 -lvl 12 -x 5740 -y 100 -defaultsOSRD
+preplace inst fft_mag_top_2 -pg 1 -lvl 12 -x 5740 -y 880 -defaultsOSRD
+preplace inst Mixers_DSP_1 -pg 1 -lvl 9 -x 3890 -y 330 -defaultsOSRD
+preplace inst Mixers_0 -pg 1 -lvl 8 -x 3370 -y -740 -defaultsOSRD
+preplace inst blk_mem_gen_32 -pg 1 -lvl 2 -x -850 -y 2670 -defaultsOSRD
+preplace netloc CA_STREAM_0_addr 1 1 7 -970 50 -670 -50 NJ -50 N -50 N -50 N -50 2200
+preplace netloc CA_STREAM_0_addr1 1 0 8 -1700 -240 N -240 N -240 N -240 N -240 1110 -200 N -200 2210
+preplace netloc CA_STREAM_0_addr2 1 1 7 -960 1270 N 1270 20 1260 N 1260 N 1260 N 1260 2200
+preplace netloc CA_STREAM_0_m_axis_tdata 1 7 1 2220 -720n
+preplace netloc CA_STREAM_0_m_axis_tlast 1 7 1 2230 -700n
+preplace netloc CA_STREAM_0_m_axis_tvalid 1 7 1 2240 -680n
+preplace netloc CA_STREAM_1_addr 1 1 3 -970 -780 NJ -780 -280
+preplace netloc CA_STREAM_1_m_axis_tdata 1 3 3 -30J -700 NJ -700 N
+preplace netloc CA_STREAM_1_m_axis_tlast 1 3 3 -10J -690 NJ -690 1160
+preplace netloc CA_STREAM_1_m_axis_tvalid 1 3 3 0J -680 NJ -680 1110
+preplace netloc CA_STREAM_2_m_axis_tdata 1 7 2 2230 340 N
+preplace netloc CA_STREAM_2_m_axis_tlast 1 7 2 2250 360 N
+preplace netloc CA_STREAM_2_m_axis_tvalid 1 7 2 2270 380 N
+preplace netloc CA_STREAM_3_m_axis_tdata 1 7 2 2230 1230 N
+preplace netloc CA_STREAM_3_m_axis_tlast 1 7 2 2260 1250 N
+preplace netloc CA_STREAM_3_m_axis_tvalid 1 7 2 2280 1270 N
+preplace netloc IFFT_CONST_0_constant 1 10 1 4680 -500n
+preplace netloc Mixers_0_m_axis_dout_tdata 1 8 3 NJ -760 NJ -760 4480
+preplace netloc Mixers_0_m_axis_dout_tlast 1 8 3 NJ -740 NJ -740 4470
+preplace netloc Mixers_0_m_axis_dout_tvalid 1 8 3 NJ -720 NJ -720 4460
+preplace netloc Mixers_0_s_axis_a_tready 1 7 1 3130 -810n
+preplace netloc Mixers_0_s_axis_b_tready 1 7 1 2250 -660n
+preplace netloc Mixers_DSP_0_m_axis_dout_tdata 1 9 2 NJ 1200 4710
+preplace netloc Mixers_DSP_0_m_axis_dout_tlast 1 9 2 NJ 1220 4720
+preplace netloc Mixers_DSP_0_m_axis_dout_tvalid 1 9 2 NJ 1240 4740
+preplace netloc Mixers_DSP_0_s_axis_b_tready 1 7 2 2290 1290 N
+preplace netloc Mixers_DSP_1_m_axis_dout_tdata 1 9 2 NJ 310 4450
+preplace netloc Mixers_DSP_1_m_axis_dout_tlast 1 9 2 NJ 330 4460
+preplace netloc Mixers_DSP_1_m_axis_dout_tvalid 1 9 2 NJ 350 4670
+preplace netloc Mixers_DSP_1_s_axis_b_tready 1 7 2 2290 400 N
+preplace netloc Net 1 0 12 -1720 -610 -1080 -520 -700J -760 380 -760 N -760 1180 -780 1740 -610 3150 -580 3650 -450 N -450 4700 -370 5590
+preplace netloc Net1 1 0 12 N -850 N -850 -610 -770 390 -770 N -770 1150 -790 1750 -440 N -440 N -440 N -440 4650 -360 5600
+preplace netloc blk_mem_gen_0_douta 1 1 2 -970 -530 -740
+preplace netloc blk_mem_gen_10_douta 1 1 3 -1010 -100 NJ -100 -70J
+preplace netloc blk_mem_gen_10_douta1 1 0 4 -1610 -90 N -90 N -90 -210
+preplace netloc blk_mem_gen_10_douta2 1 1 3 -990 450 -740 550 -240
+preplace netloc blk_mem_gen_11_douta 1 1 3 -1020 -80 NJ -80 -100J
+preplace netloc blk_mem_gen_11_douta1 1 0 4 -1620 -70 N -70 N -70 -220
+preplace netloc blk_mem_gen_11_douta2 1 1 3 -1040 950 -690 730 -260
+preplace netloc blk_mem_gen_12_douta 1 1 3 -980 -40 NJ -40 -150J
+preplace netloc blk_mem_gen_12_douta1 1 0 4 -1600 -60 N -60 N -60 -230
+preplace netloc blk_mem_gen_12_douta2 1 1 3 -1000 960 -680 740 -270
+preplace netloc blk_mem_gen_1_douta 1 2 2 -620 -20 -50
+preplace netloc blk_mem_gen_1_douta1 1 0 4 -1590 170 -1370 430 -690 530 -60
+preplace netloc blk_mem_gen_1_douta2 1 1 3 -1030 440 -730 540 -250
+preplace netloc blk_mem_gen_2_douta 1 2 2 -610 -10 -80
+preplace netloc blk_mem_gen_2_douta1 1 0 4 -1660 -230 N -230 N -230 20
+preplace netloc blk_mem_gen_2_douta2 1 1 3 -1060 -220 N -220 -120
+preplace netloc blk_mem_gen_32_douta 1 1 3 -980 970 -650J 920 -280J
+preplace netloc blk_mem_gen_3_douta 1 2 2 -640 -30 -60J
+preplace netloc blk_mem_gen_3_douta1 1 0 4 -1670 -210 N -210 N -210 10
+preplace netloc blk_mem_gen_3_douta2 1 1 3 -1070 -170 N -170 -170
+preplace netloc blk_mem_gen_4_douta 1 2 2 -660 0 -110J
+preplace netloc blk_mem_gen_4_douta1 1 0 4 -1640 -190 N -190 N -190 -10
+preplace netloc blk_mem_gen_4_douta2 1 1 3 -1050 -160 N -160 -200
+preplace netloc blk_mem_gen_5_douta 1 2 2 -650 10 -130J
+preplace netloc blk_mem_gen_5_douta1 1 0 4 -1630 -180 N -180 N -180 -40
+preplace netloc blk_mem_gen_6_douta 1 2 2 -630 20 -160J
+preplace netloc blk_mem_gen_6_douta1 1 0 4 -1650 -200 N -200 N -200 -20
+preplace netloc blk_mem_gen_7_douta 1 2 2 -600 30 -190J
+preplace netloc blk_mem_gen_7_douta1 1 0 4 -1680 -150 N -150 N -150 -90
+preplace netloc blk_mem_gen_8_douta 1 1 3 -990 -140 NJ -140 0
+preplace netloc blk_mem_gen_8_douta1 1 0 4 -1690 -130 N -130 N -130 -140
+preplace netloc blk_mem_gen_9_douta 1 1 3 -960 -120 NJ -120 -30J
+preplace netloc blk_mem_gen_9_douta1 1 0 4 -1710 -110 N -110 N -110 -180
+preplace netloc cmpy_0_m_axis_dout_tdata 1 6 1 1570 -840n
+preplace netloc cmpy_0_m_axis_dout_tlast 1 6 1 1580 -820n
+preplace netloc cmpy_0_m_axis_dout_tvalid 1 6 1 1760 -780n
+preplace netloc cmpy_0_s_axis_a_tready 1 3 3 -20J -710 NJ -710 1170
+preplace netloc cmpy_0_s_axis_b_tready 1 4 2 820J -520 1120
+preplace netloc cordic_0_m_axis_dout_tdata 1 4 1 N -580
+preplace netloc cordic_0_m_axis_dout_tvalid 1 4 2 810J -510 1190
+preplace netloc cordic_0_s_axis_phase_tready 1 3 1 -10 -580n
+preplace netloc fft_mag_top_0_s_tready 1 11 1 5170 -570n
+preplace netloc fft_mag_top_1_s_tready 1 11 1 5170 0n
+preplace netloc fft_mag_top_2_s_tready 1 11 1 5160 890n
+preplace netloc packer_0_packed_out 1 4 3 N 190 N 190 1570
+preplace netloc packer_0_packed_out1 1 4 3 N 560 N 560 1570
+preplace netloc packer_7_to_1_0_packed_out 1 4 3 NJ 1130 NJ 1130 1570J
+preplace netloc phase_acc_sweep_0_m_axis_phase_tdata 1 3 1 -30 -600n
+preplace netloc phase_acc_sweep_0_m_axis_phase_tvalid 1 3 1 0 -560n
+preplace netloc sin_neg_0_data_out 1 5 1 1110 -600n
+preplace netloc xfft_0_m_axis_data_tdata 1 7 2 3140 -570 3660
+preplace netloc xfft_0_m_axis_data_tlast 1 7 2 3120 -560 3640
+preplace netloc xfft_0_m_axis_data_tvalid 1 7 2 3150 -900 3670
+preplace netloc xfft_0_s_axis_data_tready 1 6 1 1590 -800n
+preplace netloc xfft_1_m_axis_data_tdata 1 11 1 5210 -610n
+preplace netloc xfft_1_m_axis_data_tlast 1 11 1 5200 -590n
+preplace netloc xfft_1_m_axis_data_tvalid 1 11 1 5160 -550n
+preplace netloc xfft_1_s_axis_data_tready 1 8 3 NJ -700 NJ -700 4450
+preplace netloc xfft_2_m_axis_data_tdata 1 11 1 5190 -40n
+preplace netloc xfft_2_m_axis_data_tlast 1 11 1 5180 -20n
+preplace netloc xfft_2_m_axis_data_tvalid 1 11 1 5160 20n
+preplace netloc xfft_2_s_axis_data_tready 1 9 2 4110J 340 4660
+preplace netloc xfft_3_m_axis_data_tdata 1 11 1 5160 840n
+preplace netloc xfft_3_m_axis_data_tlast 1 11 1 5610 860n
+preplace netloc xfft_3_m_axis_data_tvalid 1 11 1 5610 880n
+preplace netloc xfft_3_s_axis_data_tready 1 9 2 4110J 1230 4730
+preplace netloc xlconstant_0_dout 1 2 1 -610 -460n
+preplace netloc xlconstant_1_dout 1 6 1 1770 -740n
+preplace netloc xlconstant_2_dout 1 6 5 1780 -470 N -470 N -470 N -470 4690
+levelinfo -pg 1 -1760 -1480 -850 -440 600 970 1380 1990 3370 3890 4330 4950 5740 5910
+pagesize -pg 1 -db -bbox -sgen -1850 -2170 6690 4610
+"
+}
+0
